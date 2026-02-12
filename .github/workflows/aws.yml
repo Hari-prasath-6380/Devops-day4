@@ -23,7 +23,7 @@ jobs:
 
     # Step 3: Validate Image Pull (Optional Safety Check)
     - name: Pull Docker Image
-        run: docker pull hariprasath6380/my-static-site
+      run: docker pull hariprasath6380/my-static-site
 
     # Step 4: SSH into EC2 and Deploy
     - name: SSH and Deploy
